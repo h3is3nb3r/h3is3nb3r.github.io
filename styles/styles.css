@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+}
+
+a:hover {
+    color: rgb(20, 24, 255);
+}
+
+.nav-bar {
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 40px;
+    padding: 0;
+}
+
+nav a {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-left: 64px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a.active {
+    color: #1d04ff;
+    border-bottom: 3px solid #b74b4b;
+}
+
+.Clprofile-image {
+    border-radius: 50px solid black;
+}
+
+.profile-picture {
+    position: center;
+    width: 450px;
+    height: 450px;
+    border: solid;
+    border-radius: 400px;
+}
+
+.info-profile-home h1 {
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    color: black;
+}
+
+.info-profile-home p {
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
